@@ -19,7 +19,7 @@ namespace N_m3u8DL_CLI
     {
         private volatile static bool shouldStop = false;
         public static long BYTEDOWN = 0;
-        public static long STOP_SPEED = 0; //KB 小于此值自动重试
+        public static long STOP_SPEED = 0; //KB 小于此值自动重试dd
         public static long MAX_SPEED = 0; //KB 速度上限
         public static string VIDEO_TYPE = "";
         public static string AUDIO_TYPE = "";
